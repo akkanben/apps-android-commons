@@ -38,10 +38,13 @@
             android:visibility="gone" />
 
         <androidx.viewpager.widget.ViewPager
-            android:id="@+id/viewPager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/toolbar_layout" />
+          android:id="@+id/viewPager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@id/toolbar_layout"
+          android:layout_alignParentEnd="true"
+          android:layout_marginTop="-34dp"
+          android:layout_marginEnd="0dp" />
     </RelativeLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

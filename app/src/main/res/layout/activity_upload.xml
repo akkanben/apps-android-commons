@@ -37,33 +37,33 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           >
+
         <TextView
-            android:id="@+id/tv_top_card_title"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/half_standard_height"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_marginTop="@dimen/small_gap"
-            android:textSize="@dimen/normal_text"
-            android:textStyle="bold"
-            tools:text="4 Uploads"
-            />
+          android:id="@+id/tv_top_card_title"
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/half_standard_height"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginTop="@dimen/small_gap"
+          android:textSize="@dimen/normal_text"
+          android:textStyle="bold"
+          tools:text="4 Uploads" />
+
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/ib_toggle_top_card"
-            android:layout_width="@dimen/half_standard_height"
-            android:layout_height="@dimen/half_standard_height"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginBottom="@dimen/small_gap"
-            android:layout_marginEnd="@dimen/small_gap"
-            android:layout_marginStart="@dimen/small_gap"
-            android:clickable="false"
-            android:focusable="false"
-            app:srcCompat="@drawable/ic_expand_less_black_24dp"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            />
+          android:id="@+id/ib_toggle_top_card"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:layout_width="@dimen/half_standard_height"
+          android:layout_height="@dimen/half_standard_height"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:layout_marginStart="@dimen/small_gap"
+          android:layout_marginEnd="@dimen/small_gap"
+          android:layout_marginBottom="@dimen/small_gap"
+          android:clickable="false"
+          android:focusable="false"
+          app:srcCompat="@drawable/ic_expand_less_black_24dp" />
 
       </RelativeLayout>
 
