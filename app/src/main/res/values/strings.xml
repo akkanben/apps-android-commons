@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <!--accessibility UI description strings-->
+  <string name="commons_facebook">Commons Facebook Page</string>
+  <string name="commons_github">Commons Github Source Code</string>
+  <string name="commons_logo">Commons Logo</string>
+  <string name="commons_website">Commons Website</string>
+  <string name="exit_location_picker">Exit location picker</string>
+  <string name="submit">Submit</string>
+  <string name="add_another_description">Add another description</string>
+  <string name="add_new_contribution">Add new contribution</string>
+  <string name="add_contribution_from_camera">Add contribution from camera</string>
+  <string name="add_contribution_from_photos">Add contribution from Photos</string>
+  <string name="add_contribution_from_contributions_gallery">Add contribution from previous contributions gallery</string>
+  <string name="upload_tooltip">Tooltip</string>
+  <string name="show_captions">Captions</string>
+  <string name="row_item_language_description">Language Description</string>
+  <string name="row_item_caption">Caption</string>
+  <string name="show_captions_description">Description</string>
+  <string name="upload_categories_title">Step 1 of 15</string>
+  <string name="question_layout_text">Is Photograph of an Artwork allowed?</string>
+  <string name="pic_of_day_camera">Camera</string>
+  <string name="notification_icon">Notification</string>
+  <string name="notification_number">Notification Number</string>
+  <string name="nearby_search_item">Nearby Search Item</string>
+  <string name="near_by_row_camera">Camera</string>
+  <string name="near_by_row_image">Image</string>
+  <string name="near_by_row_map">Map</string>
+  <string name="near_by_row_more">More</string>
+  <string name="near_by_all">All</string>
+  <string name="near_by_filter_toggle">Toggle Up</string>
+  <string name="near_by_filter_search">Search View</string>
+  <string name="near_by_filter_state">Place State</string>
+  
+  <!--Other strings-->
   <plurals name="uploads_pending_notification_indicator">
     <item quantity="one">%1$d file uploading</item>
     <item quantity="other">%1$d files uploading</item>
@@ -188,10 +221,6 @@
   <string name="mapbox_commons_app_token">pk.eyJ1IjoibWFza2FyYXZpdmVrIiwiYSI6ImNqMmxvdzFjMTAwMHYzM283ZWM3eW5tcDAifQ.ib5SZ9EVjwJe6GSKve0bcg</string>
   <string name="_2fa_code">2FA Code</string>
   <string name="logout_verification">Do you really want to logout?</string>
-  <string name="commons_logo">Commons Logo</string>
-  <string name="commons_website">Commons Website</string>
-  <string name="commons_facebook">Commons Facebook Page</string>
-  <string name="commons_github">Commons Github Source Code</string>
   <string name="mediaimage_failed">Media Image Failed</string>
   <string name="no_subcategory_found">No subcategories found</string>
   <string name="no_parentcategory_found">No parent categories found</string>
@@ -376,7 +405,6 @@
   <string name="step_count">Step %1$d of %2$d: %3$s</string>
   <string name="next">Next</string>
   <string name="previous">Previous</string>
-  <string name="submit">Submit</string>
   <string name="upload_title_duplicate" formatted="true">A file with the file name %1$s exists. Are you sure you want to proceed?\n\nNote: A suitable suffix will be added to the file name automatically.</string>
   <string name="map_application_missing">No compatible map application could be found on your device. Please install a map application to use this feature.</string>
   <string name="title_page_bookmarks_pictures">Pictures</string>
@@ -656,7 +684,6 @@ Upload your first media by tapping on the add button.</string>
   <string name="media_detail_in_all_languages">In all languages</string>
   <string name="choose_a_location">Choose a location</string>
   <string name="pan_and_zoom_to_adjust">Pan and zoom to adjust</string>
-  <string name="exit_location_picker">Exit location picker</string>
   <string name="select_location_location_picker">Select location</string>
   <string name="show_in_map_app">Show in map app</string>
   <string name="modify_location">Edit location</string>
@@ -715,4 +742,5 @@ Upload your first media by tapping on the add button.</string>
   <string name="error_feedback">Error while sending feedback</string>
   <string name="enter_description">What is your feedback?</string>
   <string name="your_feedback">Your feedback</string>
+
 </resources>
